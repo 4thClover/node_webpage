@@ -1,0 +1,27 @@
+{
+  "name": "noding",
+  "version": "1.0.0",
+  "description": "My First App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "DEBUG=app node app.js",
+    "lint": "eslint app.js"
+  },
+  "author": "Ryan Dollart",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "chalk": "^3.0.0",
+    "debug": "^2.6.9",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1"
+  }
+}
