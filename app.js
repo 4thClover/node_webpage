@@ -29,9 +29,10 @@ app.get('/', (req, res) => {
   res.render(
     'index',
     {
-      nav: [{link: '/books', title: 'Books'},{link: '/authors', title: 'Authors'}],
-      title:'Mayan Power!'
-    });
+      nav: [{ link: '/books', title: 'Books' }, { link: '/authors', title: 'Authors' }],
+      title: 'Mayan Power!'
+    }
+  );
 });
 
 // Fourth using the listen function as a webserver using express
